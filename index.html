@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Name this web page</title>
+     <script type='text/javascript' src='lab9.js'></script>
+    <link type='text/css' rel='stylesheet' href='lab9.css'>
+</head>
+
+<body>
+
+    <div id="dataSetRadionButtons" class="radioButtons">
+        <input type="radio" id="crimeData" name="dataSet" value="crime" onclick="LoadForm('lab9.html')">  
+        <label for="crimeData">Crime Data, This DaraSet constains statistics in the city of Calgary</label><br><br>
+        <input type="radio" id="trafficData" name="dataSet" value="traffic" onclick="LoadForm('school.html')">
+        <label for="trafficData">School Location Data, This DataSet contains information on each school in the city of Calgary</label><br><br>
+        <input type="radio" id="greenBinData" name="dataSet" value="greenBin" onclick="LoadForm('TrafficSignal.html')">
+        <label for="trafficData">Traffic Signal Data, This DataSet contains information on recycling data in the city of Calgary</label><br><br>
+        <input type="radio" id="greenBinData" name="dataSet" value="waterBodies" onclick="LoadForm('seniors.html')">
+        <label for="trafficData">Seniors Services Data, This DataSet containt information on services available for seniors in the city of Calgary</label>
+    </div>
+    
+    <div id="replaceable-form-area">
+               
+    </div>
+    
+</body>
+
+</html>
